@@ -22,5 +22,3 @@ def sentence(a="Hello", b="Benjamin", c="How are you"):
     fullsentence = ""
     fullsentence = str(a) + " " + str(b) + ". " + str(c)
     return fullsentence
-
-assert sentence("Hello") == "Hello Benjamin. How are you"
